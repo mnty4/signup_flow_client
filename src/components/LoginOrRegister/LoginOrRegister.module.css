@@ -1,0 +1,13 @@
+.LoginOrRegister {}
+
+.buttonsWrapper {
+    display: flex;
+    gap: 2em;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    width: 6rem;
+}

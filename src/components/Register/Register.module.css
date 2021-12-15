@@ -1,0 +1,26 @@
+.Register {}
+
+.fieldGroup {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.fieldLabel {
+    text-align: justify;
+    width: 7rem;
+}
+
+.group {
+    text-align: start;
+}
+
+.cardBody {
+    padding: 1rem 3rem;
+}
+
+@media only screen and (max-width: 400px) {
+    .cardBody {
+        padding: 1rem;
+    }
+}

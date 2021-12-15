@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5rem;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+
+  
+  font-size: calc(10px + 2vmin);
+  
+}
+@media only screen and (max-width: 600px) {
+  .App {
+    padding: 0 2rem;
+  }
+}
+.app-container {
+  max-width: 30rem;
+}
+
+.App-link {
+  color: #61dafb;
+}

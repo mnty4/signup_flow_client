@@ -1,0 +1,23 @@
+.Home {
+    
+}
+
+.content {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin: 1em 0;
+}
+
+.buttonsWrapper {
+    display: flex;
+    gap: 2em;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    width: 6rem;
+}
